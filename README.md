@@ -16,6 +16,7 @@
 
 ## png files
 > 시각화 파일들
+- high_False,True_Frequency.png / low_False,True_Frequency.png : 높은/낮은 별점별 긍정적,부정적 댓글 워드클라우드
 - rank_bar.png : 낮은별점 / 높은 별점의 조회수 순위 평균 시각화
 - PNcount.png : 낮은별점, 높은별점의 긍정,부정별 댓글 갯수 시각화
 - person_bar.png : 낮은별점, 높은별점의 별점 참여자 평균 시각화
