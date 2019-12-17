@@ -15,7 +15,8 @@
 - lowstar_comment_False(부정),Treu(긍정) / highstar_comments_False,True(긍정) : 높은 별점, 낮은 별점별로 긍정적, 부정적 반응의 댓글을 따로 모은 파일.
 
 ## png files
--rank_bar.png : 낮은별점 / 높은 별점의 조회수 순위 평균 시각화
--PNcount.png : 낮은별점, 높은별점의 긍정,부정별 댓글 갯수 시각화
--person_bar.png : 낮은별점, 높은별점의 별점 참여자 평균 시각화
--starpoint_bar.png : 낮은별점, 높은별점의 평균 별점 시각화
+> 시각화 파일들
+- rank_bar.png : 낮은별점 / 높은 별점의 조회수 순위 평균 시각화
+- PNcount.png : 낮은별점, 높은별점의 긍정,부정별 댓글 갯수 시각화
+- person_bar.png : 낮은별점, 높은별점의 별점 참여자 평균 시각화
+- starpoint_bar.png : 낮은별점, 높은별점의 평균 별점 시각화
