@@ -15,7 +15,7 @@
 - starpoint_bar.png : 낮은별점, 높은별점의 평균 별점 시각화
 
 ## csv files
-> 결과 파일듯
+> 결과 파일들
 - weebtoon_info.csv : 웹툰 정보가 담긴 파일. (이름, 주소, 고유번호, 화번호, 조회수순위)
 - weebtoon_star_info.csv : 웹툰 정보 + 각 화별 별점 정보
 - weebtoon_reply_info.csv : 웹툰 정보 + 각 화별 댓글 정보
