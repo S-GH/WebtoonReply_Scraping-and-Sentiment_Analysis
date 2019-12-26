@@ -1,4 +1,4 @@
-# reply_crawling
+# Weebtoon Scraping and Sentiment Analysis
 ## py files
 - 1. Crawling.py : 웹툰 정보 크롤링 과정 코드
 - 2. Preprocess.py : 웹툰을 별점 별로 나누는 전처리 과정 코드
