@@ -1,7 +1,10 @@
 import pandas as pd
 
-csv = pd.read_csv('/Users/singwanghyeon/PycharmProjects/crwaling/weebtoon_star_info.csv')
-csv2 = pd.read_csv('/Users/singwanghyeon/PycharmProjects/crwaling/weebtoon_reply_info.csv')
+info_path = 'path/to/weebtoon_star_info.csv'
+reply_path = 'path/to/weebtoon_reply_info.csv'
+
+csv = pd.read_csv(info_path)
+csv2 = pd.read_csv(reply_path)
 del csv2['Unnamed: 0']
 
 ## 2차원 배열 동적 선언

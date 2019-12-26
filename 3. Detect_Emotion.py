@@ -7,9 +7,15 @@ from google.cloud.language import enums
 from google.cloud.language import types
 import pandas as pd
 import os
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/singwanghyeon/PycharmProjects/pro/my-project-1575100358635-e19c6ab8936f.json"
-highstar_csv = pd.read_csv('/Users/singwanghyeon/PycharmProjects/crwaling/highstar_reply.csv')
-lowstar_csv = pd.read_csv('/Users/singwanghyeon/PycharmProjects/crwaling/lowstar_reply.csv')
+
+# 자신의 구글 클라우드 인증, 환경변수 설정
+json_path = 'path/to/own.json'
+high_csv_path = 'path/to/highstar_reply.csv'
+low_csv_path = 'path/to/lowstar_reply.csv'
+
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = json_path
+highstar_csv = pd.read_csv(high_csv_path)
+lowstar_csv = pd.read_csv(low_csv_path)
 client = language.LanguageServiceClient()
 
 def emotion_detect(csvlist, filename):
@@ -24,7 +30,6 @@ def emotion_detect(csvlist, filename):
             document = types.Document(
                 content=str(txt),
                 type=enums.Document.Type.PLAIN_TEXT)
-
             try :
                 # Detects the sentiment of the text
                 sentiment = client.analyze_sentiment(document=document).document_sentiment
@@ -38,7 +43,7 @@ def emotion_detect(csvlist, filename):
                     print('Sentiment: {}'.format(score))
                     emotion_lst[i-1].append(False)
             except:
-                print('오류!')
+                print('오류! : 구글 클라우드에서 지원하지 않는 문자열입니다.')
                 print('Text: {}'.format(txt))
                 emotion_lst[i-1].append('추출불가')
 

@@ -3,18 +3,23 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 '''
-목적  
-별점 참여자수 평균 = high : 17458.482 low : 21073.924
-높은 별점 긍정/부정 = high : 2224 false(부정)
-                  high : 2776 true(긍정)
-낮은 별점 긍정/부정 = low : 3271 false(부정)
-                  low : 1727 true(긍정)
-높은 별점 부정/긍정, 낮은 별점 부정/긍정 으로 분류해서 csv파일로 저장
+목적 : 앞서 얻은 정보를 활용해 긍정적, 부정적 댓글들(각 500개씩)을 분류해서 정리한다.  
+결과 : 높은 별점 부정/긍정, 낮은 별점 부정/긍정 으로 분류해서 csv파일로 저장 
+별점 참여자수 평균 = high : 17458.482명 
+                 low : 21073.924명
+높은 별점 긍정/부정 = high : 2224개 false(부정)
+                  high : 2776개 true(긍정)
+낮은 별점 긍정/부정 = low : 3271개 false(부정)
+                  low : 1727개 true(긍정)
 '''
 
-highstar_csv = pd.read_csv('/Users/singwanghyeon/PycharmProjects/crwaling/highstar_emotion.csv')
-lowstar_csv = pd.read_csv('/Users/singwanghyeon/PycharmProjects/crwaling/lowstar_emotion.csv')
-rank_serach_csv = pd.read_csv('/Users/singwanghyeon/PycharmProjects/crwaling/weebtoon_info.csv',encoding="cp949")
+emotion_highstar_path = 'path/to/highstar_emotion.csv'
+emotion_lowstar_path = 'path/to/lowstar_emotion.csv'
+info_path = 'path/to/weebtoon_info.csv'
+
+highstar_csv = pd.read_csv(emotion_highstar_path)
+lowstar_csv = pd.read_csv(emotion_lowstar_path)
+rank_serach_csv = pd.read_csv(info_path,encoding="cp949")
 
 
 ## 각 코멘트 리스트
@@ -64,10 +69,6 @@ table.to_csv('./high_comments_False.csv', encoding="utf_8_sig", mode='w', index=
 col2 = ['high_comment_True']
 table = pd.DataFrame(True_comment_list, columns=col2)
 table.to_csv('./high_comments_True.csv', encoding="utf_8_sig", mode='w', index=True)
-
-# print(len(False_comment_list))
-# print(len(True_comment_list))
-
 
 error_list = []
 
@@ -162,9 +163,7 @@ print('별점 평균:'+str(avgbb))
 print('갯수 :')
 print(len(True_comment_listl))
 
-## 랭크 / 별점 / 별점평균 / 갯수
-
-## 랭크
+## 랭크 / 별점 / 별점평균 / 갯수  시각화
 y1_value = (18.93, 17.64)
 x_name=('high', 'low')
 n_groups = len(x_name)

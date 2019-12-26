@@ -79,6 +79,7 @@ def WC_Make(csv_path, col_name, cloud_name, font_color, size):
             print('')
         cnt += 1
 
+    # 워드 클라우드 모양 설정
     naver_mask = np.array(Image.open("mergeimg4.jpg"))
 
     word_cloud = WordCloud(font_path="AppleGothic",
@@ -100,6 +101,3 @@ WC_Make('./high_comments_False.csv','high_comment_False','high_False_Frequency.p
 WC_Make('./high_comments_True.csv','high_comment_True','high_True_Frequency.png','Blues',round(0.2776*2,3))
 WC_Make('./low_comment_False.csv','low_comment_False','low_False_Frequency.png','Reds',round(0.3271*2,3))
 WC_Make('./low_comment_True.csv','low_comment_True','low_True_Frequency.png','Blues',round(0.1727*2,3))
-
-## 시각화 해야할것
-## 평균 별점, 평균 별점 참여자수, 긍정/부정 갯수 차이, 평균 랭킹

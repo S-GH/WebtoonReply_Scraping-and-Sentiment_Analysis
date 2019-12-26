@@ -2,8 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c4a52be-6491-468c-b4ca-d44be2ae6755" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2. Preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/2. Preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Detect_Emotion.py" beforeDir="false" afterPath="$PROJECT_DIR$/3. Detect_Emotion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4. Emotion_Classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/4. Emotion_Classification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5. Make_wordcloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/5. Make_wordcloud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PNcount 복사본.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/high_False_Frequency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/high_True_Frequency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/high_comments_False.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/high_comments_True.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/highstar_emotion.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/highstar_reply.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/low_False_Frequency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/low_True_Frequency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/low_comment_False.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/low_comment_True.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lowstar_emotion.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lowstar_reply.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/person_bar 복사본.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rank_bar 복사본.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starpoint_bar 복사본.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weebtoon_info.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weebtoon_reply_info.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weebtoon_star_info.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/크롤링 발표.pages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/크롤링 발표3.pdf" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,10 +36,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1. Crawling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="1935">
               <caret line="129" column="14" selection-start-line="129" selection-start-column="14" selection-end-line="129" selection-end-column="14" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -28,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2. Preprocess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="1305">
+              <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -37,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3. Detect_Emotion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#111#144#0" expanded="true" />
               </folding>
@@ -46,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/4. Emotion_Classification.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+            <state relative-caret-position="1455">
+              <caret line="97" selection-start-line="97" selection-end-line="97" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -61,24 +84,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/5. Make_wordcloud.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1044">
-              <caret line="83" column="51" lean-forward="true" selection-start-line="83" selection-start-column="51" selection-end-line="83" selection-end-column="51" />
+            <state relative-caret-position="375">
+              <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/highstar_emotion.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state>
-              <caret column="34" selection-start-column="24" selection-end-column="34" />
-            </state>
-          </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
         </entry>
       </file>
@@ -138,17 +149,17 @@
         <option value="$PROJECT_DIR$/worldcloud.py" />
         <option value="$PROJECT_DIR$/5. Make_wordcolud.py" />
         <option value="$PROJECT_DIR$/1. Crawling.py" />
-        <option value="$PROJECT_DIR$/2. Preprocess.py" />
         <option value="$PROJECT_DIR$/3. Detect_Emotion.py" />
+        <option value="$PROJECT_DIR$/2. Preprocess.py" />
         <option value="$PROJECT_DIR$/4. Emotion_Classification.py" />
         <option value="$PROJECT_DIR$/5. Make_wordcloud.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="233" />
+    <option name="x" value="202" />
     <option name="y" value="23" />
-    <option name="width" value="1252" />
+    <option name="width" value="1225" />
     <option name="height" value="807" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -157,7 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,6 +179,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,10 +342,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="233" y="23" width="1252" height="807" extended-state="0" />
-    <editor active="true" />
+    <frame x="202" y="23" width="1225" height="807" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18115354" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18521595" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -469,6 +479,8 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/5. Make_wordcolud.py" />
+    <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/highstar_emotion.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state>
@@ -484,69 +496,58 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5. Make_wordcolud.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/csv files/high_comments_True.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="73" column="33" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/시각화 파일/high_True_Frequency.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/5. Make_wordcloud.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="83" column="51" lean-forward="true" selection-start-line="83" selection-start-column="51" selection-end-line="83" selection-end-column="51" />
+        <state relative-caret-position="375">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1. Crawling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="129" column="14" selection-start-line="129" selection-start-column="14" selection-end-line="129" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2. Preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. Detect_Emotion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding>
-            <element signature="e#111#144#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/4. Emotion_Classification.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="1455">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. Detect_Emotion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#111#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2. Preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1. Crawling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1935">
+          <caret line="129" column="14" selection-start-line="129" selection-start-column="14" selection-end-line="129" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
