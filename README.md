@@ -1,4 +1,5 @@
 # Weebtoon Scraping and Sentiment Analysis
+> 웹툰 랭킹순 댓글 감정 분석 프로젝트 입니다.
 ## py files
 - 1. Crawling.py : 웹툰 정보 크롤링 과정 코드
 - 2. Preprocess.py : 웹툰을 별점 별로 나누는 전처리 과정 코드
